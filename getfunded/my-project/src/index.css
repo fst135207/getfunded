@@ -65,6 +65,15 @@
   );
 }
 
+.bg-black-gradient-1 {
+  background: linear-gradient(
+    144.39deg,
+    #f06363 -278.56%,
+    #6b4242 -78.47%,
+    #47c566 91.61%
+  );
+}
+
 .bg-black-gradient-2 {
   background: linear-gradient(
     -168.39deg,
@@ -72,6 +81,18 @@
     #6d6d6d -78.47%,
     #11101d 91.61%
   );
+}
+.bg-pink-1 {
+  background: linear-gradient(
+    -168.39deg,
+    #ee7575 -278.56%,
+    #806ee7 -78.47%,
+    #4e46ac 91.61%
+  );
+}
+
+.bg-pink-2 {
+  background: rgba(91, 44, 221, 0.64);
 }
 
 .bg-gray-gradient {
