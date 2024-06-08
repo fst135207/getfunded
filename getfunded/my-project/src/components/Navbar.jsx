@@ -23,20 +23,19 @@ const Navbar = () => {
             <a href={`#${nav.id}`}>{nav.title}</a>
           </li>
         ))}
-        </ul>
-
-        <ul className="list-none sm:flex hidden justify-end items-end">
+      </ul>
+      <ul className="list-none sm:flex hidden justify-end items-end">
         {/* Add Buttons to the navbar */}
         {Buttons.map((Buttons, index) => (
           <li
-            key={Buttons.id}
-            className={`font-poppins font-normal cursor-pointer text-[16px] ${
-              active === Buttons.title ? "text-white" : "text-dimWhite"
-            } ${index === Buttons.length - 1? "mr-0" : "mr-10"}`}
-            onClick={() => setActive(Buttons.title)}
-          >
-            <a href={`#${Buttons.id}`}>{Buttons.title}</a>
-          </li>
+          key={Buttons.id}
+          className={`font-poppins font-normal cursor-pointer text-[16px] ${
+            active === Buttons.title ? "text-white" : "text-dimWhite"
+          } ${index === Buttons.length - 1? "mr-0" : "mr-10"}`}
+          onClick={() => setActive(Buttons.title)}
+        >
+          <a href={`#${Buttons.id}`}>{Buttons.title}</a>
+        </li>
         ))}
       </ul>
 

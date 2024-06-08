@@ -1,6 +1,6 @@
 import { features } from "../constants";
 import styles, { layout } from "../style";
-import Button from "./Button";
+import Button from "./Buttons";
 
 const FeatureCard = ({ icon, title, content, index }) => (
   <div className={`flex flex-row p-6 rounded-[20px] ${index !== features.length - 1 ? "mb-6" : "mb-0"} feature-card`}>

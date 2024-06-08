@@ -37,24 +37,24 @@ export const Buttons = [
 export const features = [
   {
     id: "feature-1",
-    icon: star,
-    title: "Rewards",
+    icon: shield,
+    title: "Secure",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "In the very unlikely event that we fail your HFT Prop Firm Account or your Non-HFT Prop Firm Account, we will provide a full refund of the service and account cost.",
   },
   {
     id: "feature-2",
-    icon: shield,
-    title: "100% Secured",
+    icon: star,
+    title: "100% Pass rate",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "100% Pass rate with HFT Prop Firms and Non-HFT Prop Firms. Get Funded today.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "24/7 Support",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "If a problem arises, we are here to help. You can reach us at any time through our Website Chatbot or by email.",
   },
 ];
 
@@ -88,18 +88,18 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Challenges",
+    value: "500+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "Supported Prop Firms",
+    value: "100+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Funds raised with us",
+    value: "$23K+",
   },
 ];
 
