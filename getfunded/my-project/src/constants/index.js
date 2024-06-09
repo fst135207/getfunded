@@ -88,7 +88,7 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "Challenges",
+    title: "Challenges passed",
     value: "500+",
   },
   {
