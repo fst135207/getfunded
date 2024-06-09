@@ -10,6 +10,7 @@ import Testimonials from "./Testimonials";
 import Hero from "./Hero";
 import Pricing from "./Pricing";
 import Certificate from "./Certificate";
+import CertificateSlider from "./CertificateSlider";
 
 export {
   Navbar,
@@ -24,4 +25,5 @@ export {
   Hero,
   Pricing,
   Certificate,
+  CertificateSlider,
 };
