@@ -43,7 +43,7 @@ const PricingCard = () => {
           buttonText: "Choose Plan"
         },
         {
-          title: "100'000'000 Account",
+          title: "1'000'000'000 Account",
           price: "$1460/per account",
           features: ["HFT Feature 1", "HFT Feature 2", "HFT Feature 3"],
           buttonText: "Choose Plan"
@@ -53,43 +53,25 @@ const PricingCard = () => {
     const nonHftPlans = [
         {
             title: "25'000 Account",
-            price: "$59/per account",
+            price: "$00/per account",
             features: ["HFT Feature 1", "HFT Feature 2", "HFT Feature 3"],
             buttonText: "Choose Plan"
         },
         {
           title: "50'000 Account",
-          price: "$99/per account",
+          price: "$00/per account",
           features: ["HFT Feature 1", "HFT Feature 2", "HFT Feature 3"],
           buttonText: "Choose Plan"
         },
         {
           title: "100'000 Account",
-          price: "$149/per account",
+          price: "$00/per account",
           features: ["HFT Feature 1", "HFT Feature 2", "HFT Feature 3"],
           buttonText: "Choose Plan"
         },
         {
           title: "200'000 Account",
-          price: "$279/per account",
-          features: ["HFT Feature 1", "HFT Feature 2", "HFT Feature 3"],
-          buttonText: "Choose Plan"
-        },
-        {
-          title: "300'000 Account",
-          price: "$389/per account",
-          features: ["HFT Feature 1", "HFT Feature 2", "HFT Feature 3"],
-          buttonText: "Choose Plan"
-        },
-        {
-          title: "500'000 Account",
-          price: "$880/per account",
-          features: ["HFT Feature 1", "HFT Feature 2", "HFT Feature 3"],
-          buttonText: "Choose Plan"
-        },
-        {
-          title: "100'000'000 Account",
-          price: "$1460/per account",
+          price: "$00/per account",
           features: ["HFT Feature 1", "HFT Feature 2", "HFT Feature 3"],
           buttonText: "Choose Plan"
         },
