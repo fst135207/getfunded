@@ -54,8 +54,8 @@ const Pricing = () => {
 
       className="grid sm:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-10 mt-20 md:w-11/12 mx-auto">
         {packages.map((pkg, index) => (
-          <div key={index} className="border py-10 md:px-6 px-4 rounded-lg shadow-3xl bg-white">
-            <h3 className="text-3xl  font-bold text-center text-[#010851]">{pkg.name}</h3>
+          <div key={index} className="py-10 md:px-6 px-4 rounded-lg shadow-3xl bg-black-gradient-2 opacity-95">
+            <h3 className="text-3xl font-bold text-center text-[#ffffff]">{pkg.name}</h3>
             <p className="text-tertiary text-center my-6">{pkg.description}</p>
             <p className="mt-5 text-center text-secondary text-4xl font-bold">
               {isYearly ? `$${pkg.yearlyPrice}` : `$${pkg.monthlyPrice}`}<span className="text-base text-tertiary font-medium">/{isYearly ? 'per account' : 'per account'}</span>
