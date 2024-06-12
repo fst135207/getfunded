@@ -7,7 +7,7 @@ const Certificate = () => {
     return (
       <section id="certificate" className={layout.section}>
         <div className={layout.sectionInfo}>
-          <h2 className={`${styles.heading2} justify-center w-full flex items-center`}>
+          <h2 className={`${styles.heading2} justify-center w-full flex items-center text-center`}>
               Recently Passed Users with GetFunded
           </h2>
             <div className="flex flex-wrap justify-center items-center w-full">
