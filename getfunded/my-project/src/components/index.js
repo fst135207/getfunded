@@ -9,9 +9,13 @@ import CertificateSlider from "./CertificateSlider";
 import PricingCard from "./PricingCard";
 import FAQ from "./FAQ";
 import Clients from "./Clients";
+import LoginButton from "./LoginButton";
+import SignupButton from "./SignupButton";
 
 export {
   Navbar,
+  LoginButton,
+  SignupButton,
   Business,
   CTA,
   Stats,

@@ -51,7 +51,7 @@ const Pricing = () => {
       initial="hidden"
       whileInView={"show"}
       viewport={{ once: false, amount: 0.2 }}
-
+       
       className="grid sm:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-10 mt-20 md:w-11/12 mx-auto">
         {packages.map((pkg, index) => (
           <div key={index} className="py-10 md:px-6 px-4 rounded-lg shadow-3x1 bg-slate-900">
